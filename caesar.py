@@ -1,8 +1,6 @@
 import string
 import bcolors
 
-shift = int(input("Enter shift: "))
-
 def encrypt(text, shift):
     alphabet = list(string.ascii_lowercase)
     plain_text = []
